@@ -25,7 +25,13 @@ npm install --global vercel
 
 Copy the `.env.example` file to `.env` and fill in your Twilio credentials and phone number.
 
-Start the application on its own with the command:
+Initiate a Vercel project:
+
+```bash 
+vercel
+```
+
+Start the application on development server:
 
 ```bash
 vercel dev
